@@ -1,0 +1,7 @@
+artifacts/*
+logs/*
+output-long/*
+output/*
+.*.sw*
+
+.dexy
