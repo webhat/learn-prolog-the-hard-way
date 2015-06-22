@@ -1,6 +1,0 @@
-?- write('Hello World.').
-
-  Hello World.
-
-  true.
-
