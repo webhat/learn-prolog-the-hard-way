@@ -44,26 +44,32 @@ Consider a different platform for playing with swi-prolog,
 the instructions to install swi-prolog from source it on these
 platform are long and tedious.
 
+Getting Ready
+*************
 
-::Here's an example of including
-::some code:
+Create a directory for the exercises called `prolog` and in this directory create a sub-directory called `code`. The examples rely on this directory to make it easier for you to follow along.
 
-::{{ ork.code('code/ex0.py|pyg') }}
+Running a command from the Terminal
+***********************************
 
-::Here is what the output of that program would look like::
+First start your console application:
 
-::    {{ d['code/ex0.py|py']|indent(4) }}
+* Windows: `cmd.exe`
+* Mac OSX: `Terminal.app`
+* Linux: `xterm`
 
-::And here's an example of including a basic text file::
-
-::    {{ d['code/ex0.txt']|indent(4) }}
-
-::Here's an example writing some code inline:
+After changing the directory to your `prolog` directory you can start swi-prolog. Typing the command `swipl` will give you a command shell for entering your commands. On linux this is done in a terminal like this:
 
 ::
 
-::    make ex0
-::    make ex0
-::    ./ex0
+    $ swipl
+    Welcome to SWI-Prolog (Multi-threaded, 64 bits, Version 7.2.0)
+    Copyright (c) 1990-2015 University of Amsterdam, VU Amsterdam
+    SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software,
+    and you are welcome to redistribute it under certain conditions.
+    Please visit http://www.swi-prolog.org for details.
+
+    For help, use ?- help(Topic). or ?- apropos(Word).
+    ?-
 
 
