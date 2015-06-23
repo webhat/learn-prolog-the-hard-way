@@ -1,5 +1,7 @@
 {% import "macros/ork.jinja" as ork with context %}
-Exercise 10
-***********
+Exercise 10: Math with the Database
+***********************************
+
+http://cs.union.edu/~striegnk/learn-prolog-now/html/node94.html
 
 

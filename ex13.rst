@@ -1,5 +1,23 @@
 {% import "macros/ork.jinja" as ork with context %}
-Exercise 13
-***********
+Exercise 13: Loops
+******************
+
+repeat,
+read(Term),
+(  Term == end_of_file
+-> !
+;  process(Term),
+fail
+).
+
+forall(member(Result = Formula, [2 = 1 + 1, 4 = 2 * 2]),
+Result =:= Formula).
+
+
+?- foreach(between(1,4,X), dif(X,Y)), Y = 5.
+Y = 5.
+?- foreach(between(1,4,X), dif(X,Y)), Y = 3.
+false.
+
 
 
