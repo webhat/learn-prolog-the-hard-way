@@ -2,4 +2,6 @@
 Exercise 17
 ***********
 
+http://www.swi-prolog.org/pldoc/man?section=defmodule
+
 

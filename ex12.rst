@@ -5,3 +5,6 @@ Exercise 12: Logic
 if statements
 
 
+Negation
+married(X):- \+single(X).
+

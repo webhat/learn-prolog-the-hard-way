@@ -1,5 +1,11 @@
 {% import "macros/ork.jinja" as ork with context %}
-Exercise 19
-***********
+Exercise 19 Spying
+******************
+
+::
+
+  ?- spy(parent).
+  ?- spy(parent/2).
+  ?- spy([parent/2,born_in_UK]).
 
 
