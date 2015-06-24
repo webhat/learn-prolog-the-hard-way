@@ -1,5 +1,8 @@
-?- assert(animal(swallow)).
+?- animal(antilope).
+false.
+
+?- assert(animal(antilope)).
 true.
 
-?- animal(X).
-X = swallow.
+?- animal(antilope).
+true.
