@@ -1,2 +1,0 @@
-animal(lion).
-animal(tiger).
